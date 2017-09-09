@@ -14,7 +14,8 @@ import net.roseindia.form.LoginForm;
 public class LoginController {
 	@RequestMapping(method = RequestMethod.GET)
 	public String showForm(Map model) {
-		//heloo word
+		//helo
+		//helo
 		LoginForm loginForm = new LoginForm();
 		model.put("loginForm", loginForm);
 		return "loginform";
